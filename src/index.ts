@@ -1,1 +1,3 @@
-console.log('marsle')
+import App from "./App"
+
+new App()

@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    width: 750px;
+    margin: 20px auto;
+}
+.header {
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.guess {
+    padding: 10px;
+    text-align: center;
+}
+.no-match {
+    background-color: red;
+}
+.partial-match {
+    background-color: orange;
+}
+.full-match {
+    background-color: green;
+}
+
+#input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.guess-expansion, .guess-tags, .guess-type {
+    text-transform: capitalize;
+}
+
+.countdown {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.countdown__time {
+    font-size: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
