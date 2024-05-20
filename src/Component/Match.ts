@@ -2,15 +2,18 @@ import MatchModel from "../Service/Matcher/Match"
 import MatchValue from "../Service/Matcher/MatchValue"
 import MatchType from "../Service/Matcher/MatchType"
 
+import Tag from "./Tag"
+import TagEnum from "../Model/Tag"
+
 export default class Match {
     constructor(private readonly match: MatchModel) {
     }
 
     public toString(): string {
-        return `<span class="guess guess-${this.match.type} ${this.getClassName()}">${this.text()}</span>`
+        return `<span class="guess guess-${this.match.type} ${this.getClassName()}">${this.innerHtml()}</span>`
     }
 
-    private text(): string {
+    private innerHtml(): string {
         switch(this.match.type) {
             case MatchType.name:
                 return this.match.target.name
@@ -21,7 +24,9 @@ export default class Match {
             case MatchType.type:
                 return this.match.target.type
             case MatchType.tags:
-                return this.match.target.tags.join(", ")
+                return this.match.target.tags
+                    .map((tag: TagEnum): string => new Tag(tag).toString())
+                    .join("")
             case MatchType.vp:
                 return this.renderVP()
         }

@@ -65,3 +65,56 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.tag {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    text-indent: -999em;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+
+.tag-animal {
+    background-image: url('./assets/tags/animal.png');
+}
+.tag-building {
+    background-image: url('./assets/tags/building.png');
+}
+.tag-city {
+    background-image: url('./assets/tags/city.png');
+}
+.tag-earth {
+    background-image: url('./assets/tags/earth.png');
+}
+.tag-event {
+    background-image: url('./assets/tags/event.png');
+}
+.tag-floater {
+    background-image: url('./assets/tags/floater.png');
+}
+.tag-jovian {
+    background-image: url('./assets/tags/jovian.png');
+}
+.tag-microbe {
+    background-image: url('./assets/tags/microbe.png');
+}
+.tag-plant {
+    background-image: url('./assets/tags/plant.png');
+}
+.tag-power {
+    background-image: url('./assets/tags/power.png');
+}
+.tag-science {
+    background-image: url('./assets/tags/science.png');
+}
+.tag-space {
+    background-image: url('./assets/tags/space.png');
+}
+.tag-venus {
+    background-image: url('./assets/tags/venus.png');
+}
+.tag-wild {
+    background-image: url('./assets/tags/wild.png');
+}
