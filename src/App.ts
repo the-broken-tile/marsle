@@ -13,6 +13,8 @@ import Stats from "./Model/Stats"
 import ComboBox, {Option} from "./Component/ComboBox"
 import Grid from "./Component/Grid"
 import Countdown from "./Component/Countdown"
+import Letters from "./Component/Letters"
+import MatchValue from "./Service/Matcher/MatchValue"
 
 
 enum State {
@@ -32,6 +34,7 @@ export default class App {
     private readonly guesses: Match[][] = []
     private readonly grid: Grid
     private readonly store: Store
+    private readonly letters!: Letters
 
     constructor() {
         this.rng = new RandomNumberGenerator()
@@ -58,6 +61,14 @@ export default class App {
         } else {
             this.card = this.builder.random()
             DEBUG && console.log(this.card)
+
+            this.letters = new Letters(
+                this.card,
+                <HTMLDivElement>document.getElementById("letters__container"),
+                this.rng,
+                this.showLetters.bind(this),
+                this.store.get<boolean>("showLetters") ?? false,
+            )
             this.load()
         }
 
@@ -67,6 +78,7 @@ export default class App {
         const guesses: Match[][] = this.store.get<Match[][]>(`guesses_${this.day}`) as Match[][] ?? []
         this.guesses.push(...guesses)
         this.guesses.forEach((matches: Match[]) => this.grid.addRow(matches))
+        guesses.forEach((matches: Match[]) => this.revealLetters(matches))
     }
 
     private onSelect(selected: string): void {
@@ -76,6 +88,7 @@ export default class App {
 
         const guessed: Card = this.builder.get(selected)
         const matches: Match[] = this.matcher.match(this.card, guessed)
+        this.revealLetters(matches)
 
         this.guesses.push(matches)
         this.store.set<Match[][]>(`guesses_${this.day}`, this.guesses)
@@ -106,5 +119,16 @@ export default class App {
             this.grid.addRow(this.matcher.match(this.card, this.card))
             alert(`You lost! The card was ${this.card.name}`)
         }
+    }
+
+    private revealLetters(matches: Match[]): void {
+        const letters: number = matches.filter(m => m.value === MatchValue.full).length
+        for (let i = 0; i < letters; i++) {
+            this.letters.revealLetter()
+        }
+    }
+
+    private showLetters(): void {
+        this.store.set<boolean>("showLetters", true)
     }
 }
