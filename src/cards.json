@@ -398,7 +398,7 @@
     },
     {
         "id": "#032",
-        "name": "Underground city",
+        "name": "Underground City",
         "cost": 18,
         "type": "green",
         "tags": [
@@ -2586,7 +2586,7 @@
     },
     {
         "id": "#210",
-        "name": "Self-replicating robots",
+        "name": "Self-replicating Robots",
         "cost": 7,
         "type": "blue",
         "tags": [],
@@ -3293,7 +3293,7 @@
     },
     {
         "id": "#P40",
-        "name": "RESEARCH COORDINATION",
+        "name": "Research Coordination",
         "cost": 4,
         "type": "green",
         "tags": [
@@ -4326,7 +4326,7 @@
     },
     {
         "id": "#X17",
-        "name": "Crash site Cleanup",
+        "name": "Crash Site Cleanup",
         "cost": 4,
         "type": "red",
         "tags": [
