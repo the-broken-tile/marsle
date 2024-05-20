@@ -145,6 +145,7 @@
         ],
         "expansion": "base",
         "vp": {
+            "resource": "jovian-tag",
             "points": 1
         }
     },
@@ -295,7 +296,7 @@
         ],
         "expansion": "base",
         "vp": {
-            "resource": "resource",
+            "resource": "animal",
             "points": 1
         }
     },
@@ -648,7 +649,7 @@
         ],
         "expansion": "base",
         "vp": {
-            "resource": "resource",
+            "resource": "animal",
             "points": 1
         }
     },
@@ -673,7 +674,7 @@
         ],
         "expansion": "base",
         "vp": {
-            "resource": "resource",
+            "resource": "animal",
             "points": 1
         }
     },
@@ -889,7 +890,7 @@
         ],
         "expansion": "base",
         "vp": {
-            "resource": "resource",
+            "resource": "animal",
             "points": 1
         }
     },
@@ -1004,6 +1005,7 @@
         ],
         "expansion": "base",
         "vp": {
+            "resource": "jovian-tag",
             "points": 1
         }
     },
@@ -1143,6 +1145,7 @@
         ],
         "expansion": "corporate",
         "vp": {
+            "resource": "jovian-tag",
             "points": 1
         }
     },
@@ -1180,7 +1183,7 @@
         ],
         "expansion": "corporate",
         "vp": {
-            "resource": "resource",
+            "resource": "science",
             "points": 2
         }
     },
@@ -1805,7 +1808,7 @@
         ],
         "expansion": "base",
         "vp": {
-            "resource": "resource",
+            "resource": "animal",
             "points": 1
         }
     },
@@ -2100,7 +2103,7 @@
         ],
         "expansion": "base",
         "vp": {
-            "resource": "resource",
+            "resource": "animal",
             "points": 1
         }
     },
@@ -2248,7 +2251,7 @@
         ],
         "expansion": "base",
         "vp": {
-            "resource": "resource",
+            "resource": "animal",
             "points": 1
         }
     },
@@ -2589,7 +2592,7 @@
         ],
         "expansion": "promo",
         "vp": {
-            "resource": "resource",
+            "resource": "animal",
             "points": 1
         }
     },
@@ -3176,7 +3179,7 @@
         ],
         "expansion": "venus next",
         "vp": {
-            "resource": "resource",
+            "resource": "animal",
             "points": 1
         }
     },
@@ -3807,7 +3810,7 @@
         ],
         "expansion": "colonies",
         "vp": {
-            "resource": "resource",
+            "resource": "animal",
             "points": 1
         }
     },
