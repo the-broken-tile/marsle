@@ -1,8 +1,7 @@
-
 export default class Countdown {
     private readonly element: HTMLDivElement
     private readonly countdownElement: HTMLSpanElement
-    constructor() {
+    constructor(private readonly time: number) {
         this.countdownElement = document.createElement("span")
         this.countdownElement.classList.add("countdown__time")
 
@@ -15,17 +14,11 @@ export default class Countdown {
     }
 
     private getTime(): number {
-        const day: Date = new Date();
-        const h: number = day.getHours();
-        const m: number = day.getMinutes();
-        const s: number = day.getSeconds();
-
-        return 86400 - h * 3600 - m * 60 - s
+        return Math.floor((this.time - Date.now()) / 1000)
     }
 
     private tick(): void {
-        const time: number = this.getTime()
-        if (time <= 0) {
+        if (Date.now() > this.time) {
             window.location.reload()
         } else {
             this.countdownElement.innerText = this.text()

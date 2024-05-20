@@ -1,5 +1,5 @@
 import cards from "./cards.json"
-import {GUESSES} from "./constants"
+import {DEBUG, GUESSES, TIME} from "./constants"
 
 import CardBuilder from "./Service/CardBuilder"
 import RandomNumberGenerator from "./Service/RandomNumberGenerator"
@@ -22,7 +22,7 @@ enum State {
 }
 
 export default class App {
-    private day: number = Math.floor(Date.now() / 86400000)
+    private day: number = Math.floor(Date.now() / TIME)
     private state: string = State.playing
     private readonly builder: CardBuilder
     private readonly matcher: Matcher
@@ -53,9 +53,10 @@ export default class App {
         const today: Stats|undefined = stats.find((stat: Stats) => stat.day === this.day)
         if (today) {
             this.state = today.won ? State.Won : State.Lost
-            new Countdown()
+            new Countdown(Math.ceil(Date.now() / TIME) * TIME)
         } else {
             this.card = this.builder.random()
+            DEBUG && console.log(this.card)
             this.load()
         }
 
@@ -88,7 +89,7 @@ export default class App {
             setTimeout((): void => {
                 alert("You won!")
 
-                new Countdown()
+                new Countdown(Math.ceil(Date.now() / TIME) * TIME)
             }, 0)
 
             return
