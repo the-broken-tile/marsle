@@ -91,9 +91,6 @@ body {
 .tag-event {
     background-image: url('./assets/tags/event.png');
 }
-.tag-floater {
-    background-image: url('./assets/tags/floater.png');
-}
 .tag-jovian {
     background-image: url('./assets/tags/jovian.png');
 }
