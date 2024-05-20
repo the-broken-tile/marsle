@@ -1,7 +1,6 @@
 
 enum Resource {
     science = "science",
-    ocean = "ocean",
     fighter = "fighter",
     microbe = "microbe",
     generic = "resource",
@@ -9,6 +8,11 @@ enum Resource {
     floater = "floater",
     camp = "camp",
     asteroid = "asteroid",
+
+    ocean = "ocean-tile",
+    city = "city-tile",
+
+    jovian = "jovian-tag",
 }
 
 export default Resource

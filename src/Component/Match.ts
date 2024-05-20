@@ -1,8 +1,8 @@
 import MatchModel from "../Service/Matcher/Match"
-import MatchValue from "../Service/Matcher/MatchValue"
 import MatchType from "../Service/Matcher/MatchType"
 
 import Expansion from "./Expansion"
+import Resource from "./Resource"
 import Tag from "./Tag"
 
 import TagEnum from "../Model/Tag"
@@ -42,7 +42,7 @@ export default class Match {
         }
 
         if (vp.resource) {
-            return `${vp.points} / ${vp.resource}`
+            return `${vp.points} / ${vp.per === 1 ? "": vp.per}${new Resource(vp.resource)}`
         }
 
         return `${vp.points}`

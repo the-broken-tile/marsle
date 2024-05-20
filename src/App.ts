@@ -51,6 +51,7 @@ export default class App {
 
         const stats: Stats[] = this.store.get<Stats[]>("stats") ?? []
         const today: Stats|undefined = stats.find((stat: Stats) => stat.day === this.day)
+        DEBUG && console.log(this.day)
         if (today) {
             this.state = today.won ? State.Won : State.Lost
             new Countdown(Math.ceil(Date.now() / TIME) * TIME)
