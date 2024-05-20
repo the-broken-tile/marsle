@@ -24,14 +24,23 @@ body {
     padding: 10px;
     text-align: center;
 }
-.no-match {
+.match-no {
     background-color: red;
 }
-.partial-match {
+.match-partial, .match-higher, .match-lower {
     background-color: orange;
 }
-.full-match {
+.match-higher::after {
+    content: "👆"
+}
+.match-lower::after {
+    content: "👇"
+}
+.match-full {
     background-color: green;
+}
+.guess-name {
+    background-color: transparent;
 }
 
 #input {
