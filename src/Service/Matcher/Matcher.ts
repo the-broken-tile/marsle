@@ -125,9 +125,9 @@ export default class Matcher {
         return [
             new Match(target, MatchType.name, MatchValue.full),
             new Match(target, MatchType.cost, MatchValue.full),
-            new Match(target, MatchType.tags, MatchValue.full),
             new Match(target, MatchType.expansion, MatchValue.full),
             new Match(target, MatchType.type, MatchValue.full),
+            new Match(target, MatchType.tags, MatchValue.full),
             new Match(target, MatchType.vp, MatchValue.full),
         ]
     }
