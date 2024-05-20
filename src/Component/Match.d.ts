@@ -3,8 +3,6 @@ export default class Match {
     private readonly match;
     constructor(match: MatchModel);
     toString(): string;
-    private text;
-    private renderCost;
-    private getClassName;
+    private innerHtml;
     private renderVP;
 }
