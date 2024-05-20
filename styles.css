@@ -25,6 +25,9 @@ body {
 .guess {
     padding: 10px;
     text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 .match-no {
     background-color: red;
@@ -86,7 +89,6 @@ body {
     border-radius: 50%;
     background-size: 100% 100%;
 }
-
 .tag-animal {
     background-image: url('./assets/tags/animal.png');
 }
@@ -136,7 +138,6 @@ body {
     border-radius: 50%;
     background-size: 100% 100%;
 }
-
 .expansion-colonies {
     background-image: url('./assets/expansions/colonies.png');
 }
@@ -157,6 +158,46 @@ body {
 }
 .expansion-base {
     display: none;
+}
+
+.resource {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    text-indent: -999em;
+    background-size: 100% 100%;
+}
+.resource-animal {
+    background-image: url('./assets/resources/animal.png');
+}
+.resource-asteroid {
+    background-image: url('./assets/resources/asteroid.png');
+}
+.resource-camp {
+    background-image: url('./assets/resources/camp.png');
+}
+.resource-city-tile {
+    background-image: url('./assets/resources/city-tile.png');
+}
+.resource-colony {
+    background-image: url('./assets/resources/colony.png');
+}
+.resource-floater {
+    background-image: url('./assets/resources/floater.png');
+}
+.resource-jovian-tag {
+    border-radius: 50%;
+    background-image: url('./assets/tags/jovian.png');
+}
+.resource-microbe {
+    background-image: url('./assets/resources/microbe.png');
+}
+.resource-ocean-tile {
+    background-image: url('./assets/resources/ocean-tile.png');
+}
+.resource-science {
+    background-image: url('./assets/resources/science.png');
 }
 
 @media only screen and (max-width: 576px) {
