@@ -87,11 +87,13 @@ export default class Matcher {
             return new Match(target, MatchType.vp, MatchValue.no)
         }
 
-        const cardPoints: number | null = cardVP.points
-        const targetPoints: number | null = targetVP.points
+        const cardPoints: number = cardVP.points
+        const targetPoints: number = targetVP.points
+        const cardResource: Resource | undefined = cardVP.resource
+        const targetResource: Resource | undefined = targetVP.resource
 
-        if (cardPoints !== null) {
-            if (targetPoints !== null) {
+        if (cardResource === undefined) {
+            if (targetResource === undefined) {
                 //MatchValue.full higher/lower
                 if (cardPoints === targetPoints) {
                     return new Match(target, MatchType.vp, MatchValue.full)
@@ -110,16 +112,10 @@ export default class Matcher {
             return new Match(target, MatchType.vp, MatchValue.partial)
         }
 
-        const resource: Resource = cardVP.resource!
-        const perResource: number = cardVP.perResource!
-
-        const targetResource: Resource = targetVP.resource!
-        const targetPerResource: number = targetVP.perResource!
-
         return new Match(
             target,
             MatchType.vp,
-            (resource !== targetResource) || (perResource !== targetPerResource)
+            (cardResource !== targetResource) || (cardPoints !== targetPoints)
                 ? MatchValue.partial
                 : MatchValue.full,
         )

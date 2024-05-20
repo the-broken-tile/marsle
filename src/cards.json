@@ -58,7 +58,7 @@
         "expansion": "base",
         "vp": {
             "resource": "science",
-            "perResource": 3
+            "points": 3
         }
     },
     {
@@ -95,7 +95,7 @@
         "expansion": "base",
         "vp": {
             "resource": "ocean",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -296,7 +296,7 @@
         "expansion": "base",
         "vp": {
             "resource": "resource",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -352,7 +352,7 @@
         "expansion": "corporate",
         "vp": {
             "resource": "fighter",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -437,7 +437,7 @@
         "expansion": "base",
         "vp": {
             "resource": "microbe",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -609,7 +609,7 @@
         "expansion": "corporate",
         "vp": {
             "resource": "microbe",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -649,7 +649,7 @@
         "expansion": "base",
         "vp": {
             "resource": "resource",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -674,7 +674,7 @@
         "expansion": "base",
         "vp": {
             "resource": "resource",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -890,7 +890,7 @@
         "expansion": "base",
         "vp": {
             "resource": "resource",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -1181,7 +1181,7 @@
         "expansion": "corporate",
         "vp": {
             "resource": "resource",
-            "perResource": 2
+            "points": 2
         }
     },
     {
@@ -1572,7 +1572,7 @@
         "expansion": "base",
         "vp": {
             "resource": "animal",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -1608,7 +1608,7 @@
         "expansion": "base",
         "vp": {
             "resource": "microbe",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -1806,7 +1806,7 @@
         "expansion": "base",
         "vp": {
             "resource": "resource",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -2101,7 +2101,7 @@
         "expansion": "base",
         "vp": {
             "resource": "resource",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -2249,7 +2249,7 @@
         "expansion": "base",
         "vp": {
             "resource": "resource",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -2590,7 +2590,7 @@
         "expansion": "promo",
         "vp": {
             "resource": "resource",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -2743,7 +2743,7 @@
         "expansion": "venus next",
         "vp": {
             "resource": "microbe",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -2757,7 +2757,7 @@
         "expansion": "venus next",
         "vp": {
             "resource": "floater",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -3038,7 +3038,7 @@
         "expansion": "venus next",
         "vp": {
             "resource": "floater",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -3053,7 +3053,7 @@
         "expansion": "venus next",
         "vp": {
             "resource": "animal",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -3177,7 +3177,7 @@
         "expansion": "venus next",
         "vp": {
             "resource": "resource",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -3192,7 +3192,7 @@
         "expansion": "venus next",
         "vp": {
             "resource": "microbe",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -3511,7 +3511,7 @@
         "expansion": "colonies",
         "vp": {
             "resource": "floater",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -3695,7 +3695,7 @@
         "expansion": "colonies",
         "vp": {
             "resource": "camp",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -3808,7 +3808,7 @@
         "expansion": "colonies",
         "vp": {
             "resource": "resource",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -4257,7 +4257,7 @@
         "expansion": "promo",
         "vp": {
             "resource": "asteroid",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -4271,7 +4271,7 @@
         "expansion": "promo",
         "vp": {
             "resource": "asteroid",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -4704,7 +4704,7 @@
         "expansion": "promo",
         "vp": {
             "resource": "resource",
-            "perResource": 1
+            "points": 1
         }
     },
     {
@@ -4763,7 +4763,7 @@
         "expansion": "promo",
         "vp": {
             "resource": "resource",
-            "perResource": 1
+            "points": 1
         }
     }
 ]

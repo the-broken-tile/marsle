@@ -10,7 +10,7 @@ export interface CardConfig {
     type: Type,
     cost: number,
     expansion: Expansion,
-    vp?: VP|null,
+    vp: VP|null,
 }
 
 export default class Card {
@@ -42,7 +42,7 @@ export default class Card {
     }
 
     get vp(): VP | null {
-        return this.props.vp ?? null
+        return this.props.vp
     }
 
     public toJSON(): CardConfig {

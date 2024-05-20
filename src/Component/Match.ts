@@ -52,15 +52,16 @@ export default class Match {
     }
 
     private renderVP(): string {
-        if (this.match.target.vp === null) {
-            return ""
-        }
         const { vp } = this.match.target
 
-        if (vp.points) {
-            return `${vp.points}`
+        if (vp === null) {
+            return ""
         }
 
-        return `${vp.perResource} / ${vp.resource}`
+        if (vp.resource) {
+            return `${vp.points} / ${vp.resource}`
+        }
+
+        return `${vp.points}`
     }
 }
