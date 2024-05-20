@@ -9,7 +9,10 @@ export default class App {
     private readonly guesses;
     private readonly grid;
     private readonly store;
+    private readonly letters;
     constructor();
     private load;
     private onSelect;
+    private revealLetters;
+    private showLetters;
 }

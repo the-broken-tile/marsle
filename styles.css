@@ -200,6 +200,25 @@ body {
     background-image: url('./assets/resources/science.png');
 }
 
+#letters__container {
+    background: rgba(122, 122, 122, 0.5);
+}
+#letters__container.revealed {
+    background: transparent;
+}
+#letters__container.revealed #show-letters {
+    visibility: hidden;
+}
+#letters__container.revealed #letters {
+    visibility: visible;
+}
+#letters {
+    visibility: hidden;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 576px) {
     .grid {
         margin: 0;
