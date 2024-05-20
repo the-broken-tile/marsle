@@ -2,7 +2,9 @@ import MatchModel from "../Service/Matcher/Match"
 import MatchValue from "../Service/Matcher/MatchValue"
 import MatchType from "../Service/Matcher/MatchType"
 
+import Expansion from "./Expansion"
 import Tag from "./Tag"
+
 import TagEnum from "../Model/Tag"
 
 export default class Match {
@@ -20,7 +22,7 @@ export default class Match {
             case MatchType.cost:
                 return this.renderCost()
             case MatchType.expansion:
-                return this.match.target.expansion
+                return new Expansion(this.match.target.expansion).toString()
             case MatchType.type:
                 return this.match.target.type
             case MatchType.tags:

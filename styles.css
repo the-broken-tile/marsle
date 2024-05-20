@@ -115,3 +115,35 @@ body {
 .tag-wild {
     background-image: url('./assets/tags/wild.png');
 }
+
+.expansion {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    text-indent: -999em;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+
+.expansion-colonies {
+    background-image: url('./assets/expansions/colonies.png');
+}
+.expansion-corporate {
+    background-image: url('./assets/expansions/corporate.png');
+}
+.expansion-prelude {
+    background-image: url('./assets/expansions/prelude.png');
+}
+.expansion-promo {
+    background-image: url('./assets/expansions/promo.png');
+}
+.expansion-turmoil {
+    background-image: url('./assets/expansions/turmoil.png');
+}
+.expansion-venus-next {
+    background-image: url('./assets/expansions/venus-next.png');
+}
+.expansion-base {
+    display: none;
+}
