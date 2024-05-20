@@ -1,7 +1,8 @@
 export default class Countdown {
+    private readonly time;
     private readonly element;
     private readonly countdownElement;
-    constructor();
+    constructor(time: number);
     private getTime;
     private tick;
     private text;
