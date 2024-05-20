@@ -9,7 +9,7 @@ export interface CardConfig {
     type: Type;
     cost: number;
     expansion: Expansion;
-    vp?: VP | null;
+    vp: VP | null;
 }
 export default class Card {
     private readonly props;
