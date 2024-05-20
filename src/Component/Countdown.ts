@@ -20,7 +20,7 @@ export default class Countdown {
         const m: number = day.getMinutes();
         const s: number = day.getSeconds();
 
-        return 72000 - h * 3600 - m * 60 - s
+        return 86400 - h * 3600 - m * 60 - s
     }
 
     private tick(): void {
