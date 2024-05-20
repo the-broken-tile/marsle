@@ -1,5 +1,5 @@
 {
   "guesses": 5,
   "time": 86400000,
-  "debug": true
+  "debug": false
 }
