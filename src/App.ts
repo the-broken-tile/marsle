@@ -5,7 +5,7 @@ import CardBuilder from "./Service/CardBuilder"
 import RandomNumberGenerator from "./Service/RandomNumberGenerator"
 import Match from "./Service/Matcher/Match"
 import Matcher from "./Service/Matcher/Matcher"
-import Store from "./Service/Store";
+import Store from "./Service/Store"
 
 import Card from "./Model/Card"
 import Stats from "./Model/Stats"
@@ -78,7 +78,13 @@ export default class App {
         const guesses: Match[][] = this.store.get<Match[][]>(`guesses_${this.day}`) as Match[][] ?? []
         this.guesses.push(...guesses)
         this.guesses.forEach((matches: Match[]) => this.grid.addRow(matches))
-        guesses.forEach((matches: Match[]) => this.revealLetters(matches))
+        guesses.forEach((matches: Match[]) => {
+            const [match] = matches
+            const { target } = match
+            this.comboBox.remove(target.id)
+
+            this.revealLetters(matches)
+        })
     }
 
     private onSelect(selected: string): void {

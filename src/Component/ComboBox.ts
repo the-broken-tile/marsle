@@ -25,14 +25,19 @@ export default class ComboBox {
                 this.element.appendChild(element)
             })
 
-        this.init()
+        this.element.addEventListener("change", this.handleChange.bind(this))
     }
 
+    public remove(id: string): void {
+        const option: HTMLOptionElement|null = this.element.querySelector(`option[value="${id}"]`)
+        option?.remove()
+        this.element.selectedIndex = 0
+    }
 
-    private init(): void {
-        this.element.addEventListener("change", (): void => {
-            this.onSelect(this.element.value)
-            this.element.selectedIndex = 0
-        })
+    private handleChange(): void {
+        const { value } = this.element
+
+        this.onSelect(value)
+        this.remove(value)
     }
 }
