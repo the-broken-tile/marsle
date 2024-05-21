@@ -57,7 +57,7 @@ export default class App {
         DEBUG && console.log(this.day)
         if (today) {
             this.state = today.won ? State.Won : State.Lost
-            new Countdown(Math.ceil(Date.now() / TIME) * TIME)
+            this.initCountDown()
         } else {
             this.card = this.builder.random()
             DEBUG && console.log(this.card)
@@ -109,7 +109,7 @@ export default class App {
             setTimeout((): void => {
                 alert("You won!")
 
-                new Countdown(Math.ceil(Date.now() / TIME) * TIME)
+                this.initCountDown()
             }, 0)
 
             return
@@ -136,5 +136,13 @@ export default class App {
 
     private showLetters(): void {
         this.store.set<boolean>("showLetters", true)
+    }
+
+    private initCountDown(): void {
+        const element: HTMLDivElement = document.createElement("div")
+        element.classList.add("countdown")
+        document.body.appendChild(element)
+
+        new Countdown(Math.ceil(Date.now() / TIME) * TIME, element)
     }
 }

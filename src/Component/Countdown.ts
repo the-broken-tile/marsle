@@ -1,15 +1,12 @@
 export default class Countdown {
-    private readonly element: HTMLDivElement
-    private readonly countdownElement: HTMLSpanElement
-    constructor(private readonly time: number) {
-        this.countdownElement = document.createElement("span")
-        this.countdownElement.classList.add("countdown__time")
+    private readonly element: HTMLSpanElement
 
-        this.element = document.createElement("div")
-        this.element.classList.add("countdown")
-        this.element.appendChild(this.countdownElement)
+    constructor(private readonly time: number, private readonly container: HTMLDivElement) {
+        this.element = document.createElement("span")
+        this.element.classList.add("countdown__time")
 
-        document.body.appendChild(this.element)
+        this.container.appendChild(this.element)
+
         window.requestAnimationFrame(this.tick.bind(this))
     }
 
@@ -21,7 +18,7 @@ export default class Countdown {
         if (Date.now() > this.time) {
             window.location.reload()
         } else {
-            this.countdownElement.innerText = this.text()
+            this.element.innerText = this.text()
             window.requestAnimationFrame(this.tick.bind(this))
         }
     }
