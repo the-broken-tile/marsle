@@ -1,38 +1,35 @@
-import Match from "./Match"
-import MatchValue from "./MatchValue"
-
-import MatchType from "./MatchType"
-import Card from "../../Model/Card"
-import Tag from "../../Model/Tag"
-import VP from "../../Model/VP"
-import Resource from "../../Model/Resource"
+import Card from "../Model/Card"
+import Match from "../Model/Match"
+import MatchValue from "../Model/MatchValue"
+import MatchType from "../Model/MatchType"
+import Resource from "../Model/Resource"
+import Tag from "../Model/Tag"
+import VP from "../Model/VP"
 
 export default class Matcher {
     public match(card: Card, target: Card): Match[]  {
         if (card === target) {
-            return this.totalMatch(target)
+            return this.totalMatch()
         }
 
         const result: Match[] = []
         result.push(
             new Match(
-                target,
                 MatchType.name,
                 card.name === target.name ? MatchValue.full : MatchValue.no,
             ),
         )
 
         if (card.cost === target.cost) {
-            result.push(new Match(target, MatchType.cost, MatchValue.full))
+            result.push(new Match(MatchType.cost, MatchValue.full))
         } else if (card.cost < target.cost) {
-            result.push(new Match(target, MatchType.cost, MatchValue.lower))
+            result.push(new Match(MatchType.cost, MatchValue.lower))
         } else {
-            result.push(new Match(target, MatchType.cost, MatchValue.higher))
+            result.push(new Match(MatchType.cost, MatchValue.higher))
         }
 
         result.push(
             new Match(
-                target,
                 MatchType.expansion,
                 card.expansion === target.expansion ? MatchValue.full : MatchValue.no,
             ),
@@ -40,7 +37,6 @@ export default class Matcher {
 
         result.push(
             new Match(
-                target,
                 MatchType.type,
                 card.type === target.type ? MatchValue.full : MatchValue.no,
             ),
@@ -57,18 +53,18 @@ export default class Matcher {
         const cardTags: string = card.tags.sort(sorter).join("")
         const targetTags: string = target.tags.sort(sorter).join("")
         if (cardTags === targetTags) {
-            return new Match(target, MatchType.tags, MatchValue.full)
+            return new Match(MatchType.tags, MatchValue.full)
         }
 
 
         return card.tags
             .reduce((carry: Match, tag: Tag): Match => {
                 if (target.tags.includes(tag)) {
-                    return new Match(target, MatchType.tags, MatchValue.partial)
+                    return new Match(MatchType.tags, MatchValue.partial)
                 }
 
                 return carry
-            }, new Match(target, MatchType.tags, MatchValue.no))
+            }, new Match(MatchType.tags, MatchValue.no))
     }
 
     private matchVP(card: Card, target: Card): Match {
@@ -77,14 +73,14 @@ export default class Matcher {
 
         if (cardVP === null) {
             if (targetVP === null) {
-                return new Match(target, MatchType.vp, MatchValue.full)
+                return new Match(MatchType.vp, MatchValue.full)
             }
 
-            return new Match(target, MatchType.vp, MatchValue.no)
+            return new Match(MatchType.vp, MatchValue.no)
         }
 
         if (targetVP === null) {
-            return new Match(target, MatchType.vp, MatchValue.no)
+            return new Match(MatchType.vp, MatchValue.no)
         }
 
         const cardPoints: number = cardVP.points
@@ -96,24 +92,23 @@ export default class Matcher {
             if (targetResource === undefined) {
                 //MatchValue.full higher/lower
                 if (cardPoints === targetPoints) {
-                    return new Match(target, MatchType.vp, MatchValue.full)
+                    return new Match(MatchType.vp, MatchValue.full)
                 }
                 if (cardPoints < targetPoints) {
-                    return new Match(target, MatchType.vp, MatchValue.lower)
+                    return new Match(MatchType.vp, MatchValue.lower)
                 }
 
-                return new Match(target, MatchType.vp, MatchValue.higher)
+                return new Match(MatchType.vp, MatchValue.higher)
             }
 
-            return new Match(target, MatchType.vp, MatchValue.partial)
+            return new Match(MatchType.vp, MatchValue.partial)
         }
 
         if (targetPoints !== null) {
-            return new Match(target, MatchType.vp, MatchValue.partial)
+            return new Match(MatchType.vp, MatchValue.partial)
         }
 
         return new Match(
-            target,
             MatchType.vp,
             (cardResource !== targetResource) || (cardPoints !== targetPoints)
                 ? MatchValue.partial
@@ -121,14 +116,14 @@ export default class Matcher {
         )
     }
 
-    private totalMatch(target: Card): Match[] {
+    private totalMatch(): Match[] {
         return [
-            new Match(target, MatchType.name, MatchValue.full),
-            new Match(target, MatchType.cost, MatchValue.full),
-            new Match(target, MatchType.expansion, MatchValue.full),
-            new Match(target, MatchType.type, MatchValue.full),
-            new Match(target, MatchType.tags, MatchValue.full),
-            new Match(target, MatchType.vp, MatchValue.full),
+            new Match(MatchType.name, MatchValue.full),
+            new Match(MatchType.cost, MatchValue.full),
+            new Match(MatchType.expansion, MatchValue.full),
+            new Match(MatchType.type, MatchValue.full),
+            new Match(MatchType.tags, MatchValue.full),
+            new Match(MatchType.vp, MatchValue.full),
         ]
     }
 }

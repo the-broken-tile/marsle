@@ -1,14 +1,14 @@
-import MatchModel from "../Service/Matcher/Match"
-import MatchType from "../Service/Matcher/MatchType"
-
 import Expansion from "./Expansion"
 import Resource from "./Resource"
 import Tag from "./Tag"
 
+import Guess from "../Model/Guess"
+import MatchModel from "../Model/Match"
+import MatchType from "../Model/MatchType"
 import TagEnum from "../Model/Tag"
 
 export default class Match {
-    constructor(private readonly match: MatchModel) {
+    constructor(private readonly guess: Guess, private readonly match: MatchModel) {
     }
 
     public toString(): string {
@@ -18,15 +18,15 @@ export default class Match {
     private innerHtml(): string {
         switch(this.match.type) {
             case MatchType.name:
-                return this.match.target.name
+                return this.guess.card.name
             case MatchType.cost:
-                return this.match.target.cost.toString()
+                return this.guess.card.cost.toString()
             case MatchType.expansion:
-                return new Expansion(this.match.target.expansion).toString()
+                return new Expansion(this.guess.card.expansion).toString()
             case MatchType.type:
-                return this.match.target.type
+                return this.guess.card.type
             case MatchType.tags:
-                return this.match.target.tags
+                return this.guess.card.tags
                     .map((tag: TagEnum): string => new Tag(tag).toString())
                     .join("")
             case MatchType.vp:
@@ -35,7 +35,7 @@ export default class Match {
     }
 
     private renderVP(): string {
-        const { vp } = this.match.target
+        const { vp } = this.guess.card
 
         if (vp === null) {
             return ""

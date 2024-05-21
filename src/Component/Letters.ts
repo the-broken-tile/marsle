@@ -1,4 +1,5 @@
 import Card from "../Model/Card"
+
 import RandomNumberGenerator from "../Service/RandomNumberGenerator"
 
 export default class Letters {

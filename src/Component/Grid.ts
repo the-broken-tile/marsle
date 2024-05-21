@@ -1,7 +1,7 @@
-import Match from "../Service/Matcher/Match"
-import MatchType from "../Service/Matcher/MatchType"
+import MatchType from "../Model/MatchType"
 
-import MatchView from "./Match"
+import Guess from "../Model/Guess"
+import Row from "./Row"
 
 const MATCHES_ORDER: MatchType[] = [
     MatchType.name,
@@ -13,7 +13,7 @@ const MATCHES_ORDER: MatchType[] = [
 ]
 
 export default class Grid {
-    private matches: Match[][] = []
+    private guesses: Guess[] = []
 
     constructor(
         private readonly columns: number,
@@ -27,10 +27,10 @@ export default class Grid {
             <div
                 class="grid"
                 style="grid-template-columns: repeat(${this.columns}, 1fr); 
-                    grid-template-rows: repeat(${this.matches.length + 1}, 1fr);"
+                    grid-template-rows: repeat(${this.guesses.length + 1}, 1fr);"
             >
                 ${this.printHeader()}
-                ${this.printMatches()}
+                ${this.printGuesses()}
             </div>
         `
     }
@@ -41,19 +41,14 @@ export default class Grid {
             .join("")
     }
 
-    private printMatches(): string {
-        return this.matches
-            .map((matches: Match[]): string => {
-                return matches.map((match: Match): string => {
-                    return `${new MatchView(match)}`
-                })
-                .join("")
-            })
-            .join("")
+    private printGuesses(): string {
+        return this.guesses.map((guess: Guess): string => {
+            return `${new Row(guess)}`
+        }).join("")
     }
 
-    public addRow(matches: Match[]): void {
-        this.matches.push(matches)
+    public addGuess(guess: Guess): void {
+        this.guesses.push(guess)
         this.element.innerHTML = this.toString()
     }
 }

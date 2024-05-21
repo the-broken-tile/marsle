@@ -3,46 +3,37 @@ import {DEBUG, GUESSES, TIME} from "./constants"
 
 import CardBuilder from "./Service/CardBuilder"
 import RandomNumberGenerator from "./Service/RandomNumberGenerator"
-import Match from "./Service/Matcher/Match"
-import Matcher from "./Service/Matcher/Matcher"
+import Matcher from "./Service/Matcher"
 import Store from "./Service/Store"
 
 import Card from "./Model/Card"
-import Stats from "./Model/Stats"
+import Game from "./Model/Game"
+import Guess from "./Model/Guess"
+import Match from "./Model/Match"
+import MatchValue from "./Model/MatchValue"
+import State from "./Model/State"
 
 import ComboBox, {Option} from "./Component/ComboBox"
 import Grid from "./Component/Grid"
 import Countdown from "./Component/Countdown"
 import Letters from "./Component/Letters"
-import MatchValue from "./Service/Matcher/MatchValue"
-
-
-enum State {
-    playing = "playing",
-    Won = "won",
-    Lost = "lost",
-}
+import GameRepository from "./Service/Repository/GameRepository"
 
 export default class App {
     private day: number = Math.floor(Date.now() / TIME)
-    private state: string = State.playing
-    private readonly builder: CardBuilder
-    private readonly matcher: Matcher
-    private readonly rng: RandomNumberGenerator
+    private readonly rng: RandomNumberGenerator = new RandomNumberGenerator()
+    private readonly builder: CardBuilder = new CardBuilder(cards, this.rng)
+    private readonly matcher: Matcher = new Matcher()
     private readonly comboBox: ComboBox
     private readonly card!: Card
-    private readonly guesses: Match[][] = []
     private readonly grid: Grid
-    private readonly store: Store
+    private readonly store: Store = new Store()
+    private readonly gameRepository: GameRepository = new GameRepository(this.store)
     private readonly letters!: Letters
 
     constructor() {
-        this.rng = new RandomNumberGenerator()
         // Seed with the current day.
         this.rng.setSeed(this.day)
-
-        this.builder = new CardBuilder(cards, this.rng)
-        this.matcher = new Matcher()
         this.comboBox = new ComboBox(
             <HTMLSelectElement>document.getElementById("input"),
             cards.map((card: {name: string, id: string}) => ({text: card.name, id: card.id} as Option)),
@@ -50,13 +41,12 @@ export default class App {
         )
 
         this.grid = new Grid(6, <HTMLDivElement>document.getElementById("grid"))
-        this.store = new Store()
 
-        const stats: Stats[] = this.store.get<Stats[]>("stats") ?? []
-        const today: Stats|undefined = stats.find((stat: Stats) => stat.day === this.day)
-        DEBUG && console.log(this.day)
-        if (today) {
-            this.state = today.won ? State.Won : State.Lost
+        const game: Game = this.gameRepository.find(this.day) ?? Game.empty(this.day)
+        this.gameRepository.save(game)
+
+        DEBUG && console.log(game)
+        if (game.state !== State.playing) {
             this.initCountDown()
         } else {
             this.card = this.builder.random()
@@ -67,44 +57,42 @@ export default class App {
                 <HTMLDivElement>document.getElementById("letters__container"),
                 this.rng,
                 this.showLetters.bind(this),
-                this.store.get<boolean>("showLetters") ?? false,
+                game.showLetters,
             )
-            this.load()
+            this.load(game)
         }
 
     }
 
-    private load(): void {
-        const guesses: Match[][] = this.store.get<Match[][]>(`guesses_${this.day}`) as Match[][] ?? []
-        this.guesses.push(...guesses)
-        this.guesses.forEach((matches: Match[]) => this.grid.addRow(matches))
-        guesses.forEach((matches: Match[]) => {
-            const [match] = matches
-            const { target } = match
-            this.comboBox.remove(target.id)
+    private load(game: Game): void {
+        const guesses: Guess[] = game.guesses
+        guesses.forEach((guess: Guess) => this.grid.addGuess(guess))
+        guesses.forEach((guess: Guess): void => {
+            this.comboBox.remove(guess.card.id)
 
-            this.revealLetters(matches)
+            this.revealLetters(guess.matches)
         })
     }
 
     private onSelect(selected: string): void {
-        if (this.state !== State.playing) {
+        const game: Game = this.gameRepository.get(this.day)
+
+        if (game.state !== State.playing) {
             return
         }
 
         const guessed: Card = this.builder.get(selected)
         const matches: Match[] = this.matcher.match(this.card, guessed)
+        const guess: Guess = new Guess(guessed, matches)
         this.revealLetters(matches)
+        game.guesses.push(guess)
 
-        this.guesses.push(matches)
-        this.store.set<Match[][]>(`guesses_${this.day}`, this.guesses)
-        this.grid.addRow(matches)
+        this.gameRepository.save(game)
+        this.grid.addGuess(guess)
 
         if (guessed.id === this.card.id) {
-            this.state = State.Won
-            const stats: Stats[] = this.store.get<Stats[]>("stats") ?? []
-            stats.push(new Stats(this.day, this.guesses.length, true))
-            this.store.set<Stats[]>("stats", stats)
+            game.state = State.Won
+            this.gameRepository.save(game)
 
             setTimeout((): void => {
                 alert("You won!")
@@ -115,14 +103,11 @@ export default class App {
             return
         }
 
-        if (this.guesses.length === GUESSES) {
-            this.state = State.Lost
+        if (game.guesses.length === GUESSES) {
+            game.state = State.Lost
+            this.gameRepository.save(game)
 
-            const stats: Stats[] = this.store.get<Stats[]>("stats") ?? []
-            stats.push(new Stats(this.day, this.guesses.length, false))
-            this.store.set<Stats[]>("stats", stats)
-
-            this.grid.addRow(this.matcher.match(this.card, this.card))
+            this.grid.addGuess(new Guess(this.card, this.matcher.match(this.card, this.card)))
             alert(`You lost! The card was ${this.card.name}`)
         }
     }
@@ -135,7 +120,9 @@ export default class App {
     }
 
     private showLetters(): void {
-        this.store.set<boolean>("showLetters", true)
+        const game: Game = this.gameRepository.get(this.day)
+        game.showLetters = true
+        this.gameRepository.save(game)
     }
 
     private initCountDown(): void {
