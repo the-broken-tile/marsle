@@ -8,5 +8,6 @@ export default class ComboBox {
     private readonly onSelect;
     private readonly empty;
     constructor(element: HTMLSelectElement, options: Option[], onSelect: Function);
-    private init;
+    remove(id: string): void;
+    private handleChange;
 }

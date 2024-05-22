@@ -1,11 +1,11 @@
-import Match from "../Service/Matcher/Match";
+import Guess from "../Model/Guess";
 export default class Grid {
     private readonly columns;
     private readonly element;
-    private matches;
+    private guesses;
     constructor(columns: number, element: HTMLDivElement);
     toString(): string;
     private printHeader;
-    private printMatches;
-    addRow(matches: Match[]): void;
+    private printGuesses;
+    addGuess(guess: Guess): void;
 }
