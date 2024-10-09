@@ -6,6 +6,7 @@ import Guess from "../Model/Guess"
 import MatchModel from "../Model/Match"
 import MatchType from "../Model/MatchType"
 import TagEnum from "../Model/Tag"
+import ExpansionEnum from "../Model/Expansion"
 
 export default class Match {
     constructor(private readonly guess: Guess, private readonly match: MatchModel) {
@@ -22,7 +23,9 @@ export default class Match {
             case MatchType.cost:
                 return this.guess.card.cost.toString()
             case MatchType.expansion:
-                return new Expansion(this.guess.card.expansion).toString()
+                return this.guess.card.expansions
+                    .map((expansion: ExpansionEnum): string => new Expansion(expansion).toString())
+                    .join("")
             case MatchType.type:
                 return this.guess.card.type
             case MatchType.tags:

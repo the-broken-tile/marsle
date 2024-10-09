@@ -8,7 +8,9 @@
             "building",
             "jovian"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 2
         }
@@ -21,7 +23,9 @@
         "tags": [
             "jovian"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -35,7 +39,9 @@
             "building",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -44,7 +50,9 @@
         "cost": 11,
         "type": "green",
         "tags": [],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -55,7 +63,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "science",
             "points": 3,
@@ -70,7 +80,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -81,7 +93,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -93,7 +107,9 @@
             "building",
             "city"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "ocean-tile",
             "points": 1,
@@ -109,7 +125,9 @@
             "event",
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -121,7 +139,9 @@
             "event",
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -133,7 +153,9 @@
             "event",
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -145,7 +167,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "jovian-tag",
             "points": 1,
@@ -161,7 +185,9 @@
             "space",
             "building"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 2
         }
@@ -175,7 +201,9 @@
             "building",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -186,7 +214,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -198,7 +228,9 @@
             "building",
             "city"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -212,7 +244,9 @@
             "building",
             "city"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -224,7 +258,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 2
         }
@@ -239,7 +275,9 @@
             "space",
             "earth"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -252,7 +290,9 @@
             "city",
             "science"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -264,7 +304,9 @@
             "space",
             "city"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 3
         }
@@ -275,7 +317,9 @@
         "cost": 15,
         "type": "green",
         "tags": [],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -286,7 +330,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -297,7 +343,9 @@
         "tags": [
             "animal"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "animal",
             "points": 1,
@@ -312,7 +360,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -326,7 +376,9 @@
             "building",
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -341,7 +393,9 @@
             "space",
             "earth"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 4
         }
@@ -354,7 +408,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "resource": "fighter",
             "points": 1,
@@ -370,7 +426,9 @@
             "building",
             "city"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -382,7 +440,9 @@
             "power",
             "earth"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -393,7 +453,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -405,7 +467,9 @@
             "building",
             "city"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -417,7 +481,9 @@
             "microbe",
             "science"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -429,7 +495,9 @@
             "microbe",
             "science"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -440,7 +508,9 @@
         "tags": [
             "microbe"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "microbe",
             "points": 1,
@@ -455,7 +525,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -467,7 +539,9 @@
             "event",
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -478,7 +552,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -492,7 +568,9 @@
             "event",
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -504,7 +582,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 2
         }
@@ -517,7 +597,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -530,7 +612,9 @@
         "tags": [
             "microbe"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -541,7 +625,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -553,7 +639,9 @@
             "building",
             "science"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -567,7 +655,9 @@
             "building",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -578,7 +668,9 @@
         "tags": [
             "power"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -591,7 +683,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -602,7 +696,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -613,7 +709,9 @@
         "tags": [
             "microbe"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "resource": "microbe",
             "points": 1,
@@ -629,7 +727,9 @@
             "event",
             "microbe"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -641,7 +741,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -654,7 +756,9 @@
         "tags": [
             "animal"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "animal",
             "points": 1,
@@ -667,7 +771,9 @@
         "cost": 18,
         "type": "green",
         "tags": [],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 2
         }
@@ -680,7 +786,9 @@
         "tags": [
             "animal"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "animal",
             "points": 1,
@@ -695,7 +803,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -708,7 +818,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -720,7 +832,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -735,7 +849,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -748,7 +864,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -761,7 +879,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -772,7 +892,9 @@
         "cost": 6,
         "type": "green",
         "tags": [],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -783,7 +905,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -794,7 +918,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -805,7 +931,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -816,7 +944,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -827,7 +957,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -838,7 +970,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -849,7 +983,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -860,7 +996,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -873,7 +1011,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 2
         }
@@ -886,7 +1026,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -897,7 +1039,9 @@
         "tags": [
             "animal"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "animal",
             "points": 1,
@@ -913,7 +1057,9 @@
             "building",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -927,7 +1073,9 @@
             "microbe",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -939,7 +1087,9 @@
             "event",
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -951,7 +1101,9 @@
             "space",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -964,7 +1116,9 @@
             "space",
             "science"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -976,7 +1130,9 @@
             "event",
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -988,7 +1144,9 @@
             "power",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1000,7 +1158,9 @@
             "event",
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1013,7 +1173,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "jovian-tag",
             "points": 1,
@@ -1029,7 +1191,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 2
         }
@@ -1043,7 +1207,9 @@
             "space",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1055,7 +1221,9 @@
             "space",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -1068,7 +1236,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "resource": "city-tile",
             "points": 1,
@@ -1083,7 +1253,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1094,7 +1266,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1105,7 +1279,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1117,7 +1293,9 @@
             "building",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1129,7 +1307,9 @@
             "science",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -1142,7 +1322,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 2
         }
@@ -1156,7 +1338,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "resource": "jovian-tag",
             "points": 1,
@@ -1171,7 +1355,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1183,7 +1369,9 @@
             "power",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1195,7 +1383,9 @@
             "building",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "resource": "science",
             "points": 2,
@@ -1211,7 +1401,9 @@
             "building",
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1222,7 +1414,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": -2
         }
@@ -1235,7 +1429,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 2
         }
@@ -1248,7 +1444,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1260,7 +1458,9 @@
             "building",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1271,7 +1471,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1282,7 +1484,9 @@
         "tags": [
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1293,7 +1497,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1304,7 +1510,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1315,7 +1523,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1326,7 +1536,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1337,7 +1549,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1349,7 +1563,9 @@
             "building",
             "city"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -1362,7 +1578,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1373,7 +1591,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1385,7 +1605,9 @@
             "event",
             "earth"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1397,7 +1619,9 @@
             "event",
             "earth"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": -2
         }
@@ -1411,7 +1635,9 @@
             "building",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -1424,7 +1650,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 2
         }
@@ -1437,7 +1665,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1448,7 +1678,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -1462,7 +1694,9 @@
             "building",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1473,7 +1707,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 2
         }
@@ -1484,7 +1720,9 @@
         "cost": 2,
         "type": "green",
         "tags": [],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -1498,7 +1736,9 @@
             "building",
             "city"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1509,7 +1749,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1520,7 +1762,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1531,7 +1775,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1542,7 +1788,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1551,7 +1799,9 @@
         "cost": 3,
         "type": "green",
         "tags": [],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": -1
         }
@@ -1564,7 +1814,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1575,7 +1827,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1587,7 +1841,9 @@
             "plant",
             "animal"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "animal",
             "points": 1,
@@ -1600,7 +1856,9 @@
         "cost": 13,
         "type": "green",
         "tags": [],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -1613,7 +1871,9 @@
         "tags": [
             "microbe"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1624,7 +1884,9 @@
         "tags": [
             "microbe"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "microbe",
             "points": 1,
@@ -1641,7 +1903,9 @@
             "power",
             "science"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1652,7 +1916,9 @@
         "tags": [
             "microbe"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1663,7 +1929,9 @@
         "tags": [
             "microbe"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1676,7 +1944,9 @@
             "microbe",
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 3
         }
@@ -1690,7 +1960,9 @@
             "building",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -1703,7 +1975,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1714,7 +1988,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1725,7 +2001,9 @@
         "tags": [
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -1738,7 +2016,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1750,7 +2030,9 @@
             "building",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1761,7 +2043,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1774,7 +2058,9 @@
             "space",
             "earth"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 2
         }
@@ -1787,7 +2073,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1799,7 +2087,9 @@
             "building",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -1812,7 +2102,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1823,7 +2115,9 @@
         "tags": [
             "animal"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "animal",
             "points": 1,
@@ -1838,7 +2132,9 @@
         "tags": [
             "microbe"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1849,7 +2145,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1860,7 +2158,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 3
         }
@@ -1874,7 +2174,9 @@
             "event",
             "earth"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1883,7 +2185,9 @@
         "cost": 2,
         "type": "green",
         "tags": [],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1894,7 +2198,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -1905,7 +2211,9 @@
         "cost": 3,
         "type": "blue",
         "tags": [],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1917,7 +2225,9 @@
             "microbe",
             "science"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1928,7 +2238,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1939,7 +2251,9 @@
         "tags": [
             "microbe"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1951,7 +2265,9 @@
             "building",
             "microbe"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1962,7 +2278,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1973,7 +2291,9 @@
         "tags": [
             "power"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -1985,7 +2305,9 @@
             "event",
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -1998,7 +2320,9 @@
             "space",
             "earth"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2011,7 +2335,9 @@
             "space",
             "earth"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2020,7 +2346,9 @@
         "cost": 3,
         "type": "green",
         "tags": [],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2031,7 +2359,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2042,7 +2372,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -2057,7 +2389,9 @@
             "space",
             "earth"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2069,7 +2403,9 @@
             "building",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -2082,7 +2418,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 2
         }
@@ -2096,7 +2434,9 @@
             "event",
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2107,7 +2447,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2119,7 +2461,9 @@
             "animal",
             "earth"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "animal",
             "points": 1,
@@ -2132,7 +2476,9 @@
         "cost": 5,
         "type": "blue",
         "tags": [],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -2144,7 +2490,9 @@
             "building",
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2155,7 +2503,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -2167,7 +2517,9 @@
             "plant",
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -2180,7 +2532,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2192,7 +2546,9 @@
             "building",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": -1
         }
@@ -2205,7 +2561,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": 1
         }
@@ -2218,7 +2576,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -2229,7 +2589,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2241,7 +2603,9 @@
             "building",
             "city"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": -2
         }
@@ -2255,7 +2619,9 @@
             "building",
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": -1
         }
@@ -2268,7 +2634,9 @@
         "tags": [
             "animal"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "animal",
             "points": 1,
@@ -2285,7 +2653,9 @@
             "earth",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -2296,7 +2666,9 @@
         "cost": 6,
         "type": "green",
         "tags": [],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -2309,7 +2681,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2320,7 +2694,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "points": -1
         }
@@ -2333,7 +2709,9 @@
         "tags": [
             "power"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2344,7 +2722,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2355,7 +2735,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2367,7 +2749,9 @@
             "event",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -2378,7 +2762,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2390,7 +2776,9 @@
             "building",
             "power"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -2401,7 +2789,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": -1
         }
@@ -2415,7 +2805,9 @@
             "space",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -2429,7 +2821,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 2
         }
@@ -2443,7 +2837,9 @@
             "space",
             "earth"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": {
             "resource": "city-tile",
             "points": 1,
@@ -2458,7 +2854,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -2470,7 +2868,9 @@
             "building",
             "city"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2481,7 +2881,9 @@
         "tags": [
             "power"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": -1
         }
@@ -2494,7 +2896,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2505,7 +2909,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2518,7 +2924,9 @@
             "space",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": null
     },
     {
@@ -2529,7 +2937,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2541,7 +2951,9 @@
             "event",
             "science"
         ],
-        "expansion": "base",
+        "expansions": [
+            "base"
+        ],
         "vp": null
     },
     {
@@ -2553,7 +2965,9 @@
             "building",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -2567,7 +2981,9 @@
             "building",
             "science"
         ],
-        "expansion": "corporate",
+        "expansions": [
+            "corporate"
+        ],
         "vp": {
             "points": 1
         }
@@ -2581,7 +2997,9 @@
             "event",
             "space"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -2590,7 +3008,9 @@
         "cost": 7,
         "type": "blue",
         "tags": [],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -2601,7 +3021,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -2612,7 +3034,9 @@
         "tags": [
             "animal"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "resource": "animal",
             "points": 1,
@@ -2627,7 +3051,9 @@
         "tags": [
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 1
         }
@@ -2640,7 +3066,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 1
         }
@@ -2654,7 +3082,9 @@
             "event",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2666,7 +3096,9 @@
             "science",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 2
         }
@@ -2680,7 +3112,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 1
         }
@@ -2694,7 +3128,9 @@
             "event",
             "space"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2705,7 +3141,9 @@
         "tags": [
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2717,7 +3155,9 @@
             "city",
             "space"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 3
         }
@@ -2732,7 +3172,9 @@
             "power",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2743,7 +3185,9 @@
         "tags": [
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2754,7 +3198,9 @@
         "tags": [
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2766,7 +3212,9 @@
             "microbe",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "resource": "microbe",
             "points": 1,
@@ -2781,7 +3229,9 @@
         "tags": [
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "resource": "floater",
             "points": 1,
@@ -2796,7 +3246,9 @@
         "tags": [
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2808,7 +3260,9 @@
             "plant",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 2
         }
@@ -2823,7 +3277,9 @@
             "space",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2835,7 +3291,9 @@
             "space",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2847,7 +3305,9 @@
             "building",
             "city"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2859,7 +3319,9 @@
             "event",
             "space"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2871,7 +3333,9 @@
             "jovian",
             "science"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 2
         }
@@ -2884,7 +3348,9 @@
         "tags": [
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2895,7 +3361,9 @@
         "tags": [
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2906,7 +3374,9 @@
         "tags": [
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2919,7 +3389,9 @@
             "earth",
             "space"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 2
         }
@@ -2930,7 +3402,9 @@
         "cost": 8,
         "type": "green",
         "tags": [],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 2
         }
@@ -2944,7 +3418,9 @@
             "city",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 3
         }
@@ -2957,7 +3433,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2968,7 +3446,9 @@
         "tags": [
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2979,7 +3459,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -2991,7 +3473,9 @@
             "space",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -3002,7 +3486,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -3014,7 +3500,9 @@
             "earth",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -3023,7 +3511,9 @@
         "cost": 7,
         "type": "green",
         "tags": [],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 1
         }
@@ -3037,7 +3527,9 @@
             "event",
             "space"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -3049,7 +3541,9 @@
             "earth",
             "science"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 1
         }
@@ -3063,7 +3557,9 @@
             "city",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "resource": "floater",
             "points": 1,
@@ -3079,7 +3575,9 @@
             "animal",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "resource": "animal",
             "points": 1,
@@ -3095,7 +3593,9 @@
             "space",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -3107,7 +3607,9 @@
             "microbe",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -3118,7 +3620,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -3130,7 +3634,9 @@
             "microbe",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -3142,7 +3648,9 @@
             "event",
             "space"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -3154,7 +3662,9 @@
             "venus",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -3165,7 +3675,9 @@
         "tags": [
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -3177,7 +3689,9 @@
             "plant",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": null
     },
     {
@@ -3189,7 +3703,9 @@
             "space",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 1
         }
@@ -3204,7 +3720,9 @@
             "science",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "resource": "animal",
             "points": 1,
@@ -3220,7 +3738,9 @@
             "microbe",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "resource": "microbe",
             "points": 1,
@@ -3236,7 +3756,9 @@
             "plant",
             "venus"
         ],
-        "expansion": "venus next",
+        "expansions": [
+            "venus-next"
+        ],
         "vp": {
             "points": 1
         }
@@ -3249,7 +3771,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "preludes",
+        "expansions": [
+            "preludes"
+        ],
         "vp": {
             "points": 1
         }
@@ -3263,7 +3787,9 @@
             "building",
             "city"
         ],
-        "expansion": "preludes",
+        "expansions": [
+            "preludes"
+        ],
         "vp": null
     },
     {
@@ -3275,7 +3801,9 @@
             "event",
             "science"
         ],
-        "expansion": "preludes",
+        "expansions": [
+            "preludes"
+        ],
         "vp": {
             "points": 1
         }
@@ -3288,7 +3816,9 @@
         "tags": [
             "microbe"
         ],
-        "expansion": "preludes",
+        "expansions": [
+            "preludes"
+        ],
         "vp": null
     },
     {
@@ -3299,7 +3829,9 @@
         "tags": [
             "wild"
         ],
-        "expansion": "preludes",
+        "expansions": [
+            "preludes"
+        ],
         "vp": null
     },
     {
@@ -3310,7 +3842,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "preludes",
+        "expansions": [
+            "preludes"
+        ],
         "vp": {
             "points": 1
         }
@@ -3324,7 +3858,9 @@
             "space",
             "earth"
         ],
-        "expansion": "preludes",
+        "expansions": [
+            "preludes"
+        ],
         "vp": null
     },
     {
@@ -3333,7 +3869,9 @@
         "cost": 11,
         "type": "green",
         "tags": [],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3346,7 +3884,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3355,7 +3895,9 @@
         "cost": 15,
         "type": "blue",
         "tags": [],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3364,7 +3906,9 @@
         "cost": 13,
         "type": "green",
         "tags": [],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3378,7 +3922,9 @@
             "event",
             "earth"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": -1
         }
@@ -3392,7 +3938,9 @@
             "space",
             "power"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3403,7 +3951,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3417,7 +3967,9 @@
             "space",
             "earth"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 4
         }
@@ -3433,7 +3985,9 @@
             "animal",
             "science"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3444,7 +3998,9 @@
         "cost": 3,
         "type": "green",
         "tags": [],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3456,7 +4012,9 @@
             "event",
             "science"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3467,7 +4025,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3478,7 +4038,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3491,7 +4053,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": -1
         }
@@ -3504,7 +4068,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3516,7 +4082,9 @@
             "event",
             "space"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3529,7 +4097,9 @@
             "space",
             "earth"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3540,7 +4110,9 @@
         "tags": [
             "jovian"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "resource": "floater",
             "points": 1,
@@ -3555,7 +4127,9 @@
         "tags": [
             "jovian"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3569,7 +4143,9 @@
             "earth",
             "earth"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3581,7 +4157,9 @@
             "earth",
             "space"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3592,7 +4170,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3604,7 +4184,9 @@
             "event",
             "earth"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3616,7 +4198,9 @@
             "building",
             "animal"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3629,7 +4213,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3640,7 +4226,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3651,7 +4239,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3665,7 +4255,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3678,7 +4270,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 2
         }
@@ -3689,7 +4283,9 @@
         "cost": 0,
         "type": "green",
         "tags": [],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3698,7 +4294,9 @@
         "cost": 8,
         "type": "green",
         "tags": [],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3712,7 +4310,9 @@
             "jovian",
             "science"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 2
         }
@@ -3725,7 +4325,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "resource": "camp",
             "points": 1,
@@ -3741,7 +4343,9 @@
             "space",
             "science"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3752,7 +4356,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3764,7 +4370,9 @@
             "space",
             "earth"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 2
         }
@@ -3779,7 +4387,9 @@
             "space",
             "science"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3792,7 +4402,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3804,7 +4416,9 @@
             "building",
             "city"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3815,7 +4429,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "resource": "colony",
             "points": 1,
@@ -3830,7 +4446,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3841,7 +4459,9 @@
         "tags": [
             "animal"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "resource": "animal",
             "points": 1,
@@ -3856,7 +4476,9 @@
         "tags": [
             "jovian"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 2
         }
@@ -3869,7 +4491,9 @@
         "tags": [
             "jovian"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3883,7 +4507,9 @@
             "space",
             "jovian"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 1
         }
@@ -3894,7 +4520,9 @@
         "cost": 6,
         "type": "blue",
         "tags": [],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3905,7 +4533,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3916,7 +4546,9 @@
         "tags": [
             "microbe"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": null
     },
     {
@@ -3927,7 +4559,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "colonies",
+        "expansions": [
+            "colonies"
+        ],
         "vp": {
             "points": 2
         }
@@ -3938,7 +4572,9 @@
         "cost": 2,
         "type": "green",
         "tags": [],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": {
             "points": -1
         }
@@ -3951,7 +4587,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -3963,7 +4601,9 @@
             "building",
             "city"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -3974,7 +4614,9 @@
         "tags": [
             "jovian"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": {
             "points": 1
         }
@@ -3987,7 +4629,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -3999,7 +4643,9 @@
             "microbe",
             "science"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -4010,7 +4656,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -4021,7 +4669,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": {
             "points": 1
         }
@@ -4034,7 +4684,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -4045,7 +4697,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": {
             "points": 2
         }
@@ -4058,7 +4712,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -4070,7 +4726,9 @@
             "event",
             "earth"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -4081,7 +4739,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -4092,7 +4752,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -4105,7 +4767,9 @@
             "plant",
             "animal"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -4116,7 +4780,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "turmoil",
+        "expansions": [
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -4127,7 +4793,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4138,7 +4806,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4149,7 +4819,9 @@
         "tags": [
             "power"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4161,7 +4833,9 @@
             "building",
             "science"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 1
         }
@@ -4174,7 +4848,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 1
         }
@@ -4188,7 +4864,9 @@
             "event",
             "earth"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": -1
         }
@@ -4201,7 +4879,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4213,7 +4893,9 @@
             "space",
             "earth"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 2
         }
@@ -4226,7 +4908,10 @@
         "tags": [
             "event"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo",
+            "turmoil"
+        ],
         "vp": null
     },
     {
@@ -4237,7 +4922,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 1
         }
@@ -4251,7 +4938,9 @@
             "earth",
             "jovian"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 1
         }
@@ -4265,7 +4954,9 @@
             "space",
             "city"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 2
         }
@@ -4278,7 +4969,9 @@
         "tags": [
             "earth"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4291,7 +4984,9 @@
             "space",
             "earth"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "resource": "asteroid",
             "points": 1,
@@ -4306,7 +5001,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "resource": "asteroid",
             "points": 1,
@@ -4321,7 +5018,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4332,7 +5031,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 1
         }
@@ -4345,7 +5046,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 1
         }
@@ -4358,7 +5061,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4369,7 +5074,9 @@
         "tags": [
             "event"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4382,7 +5089,9 @@
             "city",
             "power"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4395,7 +5104,9 @@
             "space",
             "earth"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4407,7 +5118,9 @@
             "building",
             "jovian"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 1
         }
@@ -4420,7 +5133,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4431,7 +5146,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4442,7 +5159,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4453,7 +5172,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4464,7 +5185,9 @@
         "tags": [
             "plant"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4477,7 +5200,9 @@
             "science",
             "earth"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 2
         }
@@ -4491,7 +5216,9 @@
             "microbe",
             "earth"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4503,7 +5230,9 @@
             "event",
             "space"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4515,7 +5244,9 @@
             "building",
             "power"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 1
         }
@@ -4528,7 +5259,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4540,7 +5273,9 @@
             "space",
             "earth"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4552,7 +5287,9 @@
             "science",
             "microbe"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4563,7 +5300,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4575,7 +5314,9 @@
             "event",
             "plant"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4584,7 +5325,9 @@
         "cost": 8,
         "type": "green",
         "tags": [],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 1
         }
@@ -4597,7 +5340,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 2
         }
@@ -4610,7 +5355,9 @@
         "tags": [
             "microbe"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4622,7 +5369,9 @@
             "building",
             "power"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4633,7 +5382,9 @@
         "tags": [
             "space"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4642,7 +5393,9 @@
         "cost": 1,
         "type": "blue",
         "tags": [],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4653,7 +5406,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 1
         }
@@ -4666,7 +5421,9 @@
         "tags": [
             "science"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4678,7 +5435,9 @@
             "building",
             "science"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 1
         }
@@ -4691,7 +5450,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4700,7 +5461,9 @@
         "cost": 10,
         "type": "green",
         "tags": [],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4711,7 +5474,9 @@
         "tags": [
             "building"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4720,7 +5485,9 @@
         "cost": 10,
         "type": "green",
         "tags": [],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4729,7 +5496,9 @@
         "cost": 13,
         "type": "blue",
         "tags": [],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4740,7 +5509,9 @@
         "tags": [
             "power"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "resource": "resource",
             "points": 1,
@@ -4756,7 +5527,9 @@
             "plant",
             "building"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4765,7 +5538,9 @@
         "cost": 2,
         "type": "blue",
         "tags": [],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4777,7 +5552,9 @@
             "space",
             "earth"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "points": 1
         }
@@ -4791,7 +5568,9 @@
             "building",
             "power"
         ],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": null
     },
     {
@@ -4800,7 +5579,9 @@
         "cost": 7,
         "type": "blue",
         "tags": [],
-        "expansion": "promo",
+        "expansions": [
+            "promo"
+        ],
         "vp": {
             "resource": "resource",
             "points": 1,

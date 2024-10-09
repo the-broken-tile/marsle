@@ -5,6 +5,7 @@ import MatchType from "../Model/MatchType"
 import Resource from "../Model/Resource"
 import Tag from "../Model/Tag"
 import VP from "../Model/VP"
+import Expansion from "../Model/Expansion"
 
 export default class Matcher {
     public match(card: Card, target: Card): Match[]  {
@@ -28,12 +29,7 @@ export default class Matcher {
             result.push(new Match(MatchType.cost, MatchValue.higher))
         }
 
-        result.push(
-            new Match(
-                MatchType.expansion,
-                card.expansion === target.expansion ? MatchValue.full : MatchValue.no,
-            ),
-        )
+        result.push(this.matchExpansions(card, target))
 
         result.push(
             new Match(
@@ -55,7 +51,6 @@ export default class Matcher {
         if (cardTags === targetTags) {
             return new Match(MatchType.tags, MatchValue.full)
         }
-
 
         return card.tags
             .reduce((carry: Match, tag: Tag): Match => {
@@ -114,6 +109,24 @@ export default class Matcher {
                 ? MatchValue.partial
                 : MatchValue.full,
         )
+    }
+
+    private matchExpansions(card: Card, target: Card): Match {
+        const sorter = (a: Expansion, b: Expansion): number => `${a}`.localeCompare(`${b}`)
+        const cardExpansions: string = card.expansions.sort(sorter).join("")
+        const targetExpansions: string = target.expansions.sort(sorter).join("")
+        if (cardExpansions === targetExpansions) {
+            return new Match(MatchType.expansion, MatchValue.full)
+        }
+
+        return card.expansions
+            .reduce((carry: Match, expansion: Expansion): Match => {
+                if (target.expansions.includes(expansion)) {
+                    return new Match(MatchType.expansion, MatchValue.partial)
+                }
+
+                return carry
+            }, new Match(MatchType.expansion, MatchValue.no))
     }
 
     private totalMatch(): Match[] {
