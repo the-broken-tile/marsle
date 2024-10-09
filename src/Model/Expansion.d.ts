@@ -1,7 +1,7 @@
 declare enum Expansion {
     base = "base",
     corporate = "corporate",
-    venusNext = "venus next",
+    venusNext = "venus-next",
     preludes = "preludes",
     colonies = "colonies",
     turmoil = "turmoil",

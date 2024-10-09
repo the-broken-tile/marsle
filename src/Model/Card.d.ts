@@ -8,7 +8,7 @@ export interface CardConfig {
     tags: Tag[];
     type: Type;
     cost: number;
-    expansion: Expansion;
+    expansions: Expansion[];
     vp: VP | null;
 }
 export default class Card {
@@ -18,7 +18,7 @@ export default class Card {
     get name(): string;
     get cost(): number;
     get tags(): Tag[];
-    get expansion(): Expansion;
+    get expansions(): Expansion[];
     get type(): Type;
     get vp(): VP | null;
     toJSON(): CardConfig;

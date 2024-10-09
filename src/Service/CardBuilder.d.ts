@@ -7,7 +7,7 @@ interface CardConfig {
     tags: string[];
     type: string;
     cost: number;
-    expansion: string;
+    expansions: string[];
     vp?: VPConfig | null;
 }
 export default class CardBuilder {
