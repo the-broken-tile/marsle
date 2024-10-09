@@ -5587,5 +5587,20 @@
             "points": 1,
             "per": 1
         }
+    },
+    {
+        "id": "#P001",
+        "name": "Hospitals",
+        "cost": 8,
+        "type": "blue",
+        "tags": [
+            "building"
+        ],
+        "expansions": [
+            "promo"
+        ],
+        "points": {
+            "vp": 1
+        }
     }
 ]
