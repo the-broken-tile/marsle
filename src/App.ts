@@ -4,15 +4,21 @@ import {DEBUG, GUESSES, TIME} from "./constants"
 import CardBuilder from "./Service/CardBuilder"
 import RandomNumberGenerator from "./Service/RandomNumberGenerator"
 import Matcher from "./Service/Matcher"
-import Store from "./Service/Store"
+import CostMatcher from "./Service/Matcher/CostMatcher"
+import ExpansionMatcher from "./Service/Matcher/ExpansionMatcher"
+import NameMatcher from "./Service/Matcher/NameMatcher"
+import TagMatcher from "./Service/Matcher/TagMatcher"
+import TypeMatcher from "./Service/Matcher/TypeMatcher"
+import VpMatcher from "./Service/Matcher/VpMatcher"
 
+import Store from "./Service/Store"
 import Card from "./Model/Card"
 import Game from "./Model/Game"
 import Guess from "./Model/Guess"
 import Match from "./Model/Match"
 import MatchValue from "./Model/MatchValue"
-import State from "./Model/State"
 
+import State from "./Model/State"
 import ComboBox, {Option} from "./Component/ComboBox"
 import Grid from "./Component/Grid"
 import Countdown from "./Component/Countdown"
@@ -23,7 +29,14 @@ export default class App {
     private day: number = Math.floor(Date.now() / TIME)
     private readonly rng: RandomNumberGenerator = new RandomNumberGenerator()
     private readonly builder: CardBuilder = new CardBuilder(cards, this.rng)
-    private readonly matcher: Matcher = new Matcher()
+    private readonly matcher: Matcher = new Matcher([
+        new NameMatcher(),
+        new CostMatcher(),
+        new ExpansionMatcher(),
+        new TypeMatcher(),
+        new TagMatcher(),
+        new VpMatcher(),
+    ])
     private readonly comboBox: ComboBox
     private readonly card!: Card
     private readonly grid: Grid

@@ -9,7 +9,7 @@ export interface CardConfig {
     tags: Tag[],
     type: Type,
     cost: number,
-    expansion: Expansion,
+    expansions: Expansion[],
     vp: VP|null,
 }
 
@@ -33,8 +33,8 @@ export default class Card {
         return [...this.props.tags]
     }
 
-    get expansion(): Expansion {
-        return this.props.expansion
+    get expansions(): Expansion[] {
+        return this.props.expansions
     }
 
     get type(): Type {

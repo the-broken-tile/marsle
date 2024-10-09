@@ -12,7 +12,7 @@ interface CardConfig {
     tags: string[],
     type: string,
     cost: number,
-    expansion: string,
+    expansions: string[],
     vp?: VPConfig|null
 
 }
@@ -37,7 +37,7 @@ export default class CardBuilder {
                     tags: config.tags as Tag[],
                     type: <Type>config.type,
                     cost: config.cost,
-                    expansion: config.expansion as Expansion,
+                    expansions: config.expansions as Expansion[],
                     vp: (config.vp === null || config.vp === undefined) ? null : new VP(config.vp),
                 })
             )
